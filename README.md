@@ -7,7 +7,7 @@ e Django, hospedado na plataforma Heroku.
 - Python + Django
 - Hospedado no Heroku
 
-> Imagens do projeto
+### # Imagens do projeto
 
 <img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.ibb.co/k6vjrQf/site.png" alt=""></img>
 <br>
