@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" type="text/css" href="static/styles/style.css">
+</head>
+
+<body>
+
+    <div id="titulo">
+        <h1 style="text-align: center;">Lista de Filmes</h1>
+    </div>
+
+    <div>
+
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Capa</th>
+                    <th>Ano</th>
+                    <th>Diretor</th>
+                    <th>Sinopse</th>
+                    <th>Disponível</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for filme in filmes %}
+                <tr>
+                    <td>{{ filme.titulo}}</td>
+                    <td><img class="capa" src="{{ filme.capa }}"></td>
+                    <td>{{ filme.ano}}</td>
+                    <td>{{ filme.diretor}}</td>
+                    <td>{{ filme.sinopse}}</td>
+                    <td>{% if filme.disponivel %} Sim {% else %} Não {% endif %}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+
+</html>
