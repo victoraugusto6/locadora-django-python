@@ -7,6 +7,9 @@ e Django, hospedado na plataforma Heroku.
 - Python + Django
 - Hospedado no Heroku
 
+### # Link do projeto
+> https://django-test-locadora.herokuapp.com/
+
 ### # Imagens do projeto
 
 <img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.ibb.co/k6vjrQf/site.png" alt=""></img>
