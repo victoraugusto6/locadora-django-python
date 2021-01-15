@@ -1,6 +1,6 @@
 # Criando uma listagem de filmes usando Python + Django + Heroku
 
-Este reposítório foi criado com a finalidade de demonstrar um site para demonstrar uma listagem de filmes usando Python
+Este reposítório foi criado com a finalidade de demonstrar um site exibindo uma listagem de filmes usando Python
 e Django, hospedado na plataforma Heroku.
 
 - Site para listagem de filmes
