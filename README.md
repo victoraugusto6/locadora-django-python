@@ -9,7 +9,7 @@ e Django, hospedado na plataforma Heroku.
 
 ### # Link do projeto
 
-> <a href="https://django-test-locadora.herokuapp.com/" target="_blank">Clique aqui</a>
+[< Clique aqui >](https://django-test-locadora.herokuapp.com/)
 
 ### # Imagens do projeto
 
