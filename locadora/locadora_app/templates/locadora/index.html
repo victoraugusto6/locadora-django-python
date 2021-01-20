@@ -11,38 +11,38 @@
 
 <body>
 
-    <div id="titulo">
-        <h1 style="text-align: center;">Lista de Filmes</h1>
-    </div>
+<div id="titulo">
+    <h1>Lista de Filmes</h1>
+</div>
 
-    <div>
+<div>
 
-        <table class="tabela">
-            <thead>
-                <tr>
-                    <th>Título</th>
-                    <th>Capa</th>
-                    <th>Ano</th>
-                    <th>Diretor</th>
-                    <th>Sinopse</th>
-                    <th>Disponível</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for filme in filmes %}
-                <tr>
-                    <td>{{ filme.titulo}}</td>
-                    <td><img class="capa" src="{{ filme.capa }}"></td>
-                    <td>{{ filme.ano}}</td>
-                    <td>{{ filme.diretor}}</td>
-                    <td>{{ filme.sinopse}}</td>
-                    <td>{% if filme.disponivel %} Sim {% else %} Não {% endif %}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+    <table class="tabela">
+        <thead>
+        <tr>
+            <th>Título</th>
+            <th>Capa</th>
+            <th>Ano</th>
+            <th>Diretor</th>
+            <th>Sinopse</th>
+            <th>Disponível</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for filme in filmes %}
+        <tr>
+            <td>{{ filme.titulo}}</td>
+            <td><img class="capa" src="{{ filme.capa }}"></td>
+            <td>{{ filme.ano}}</td>
+            <td>{{ filme.diretor}}</td>
+            <td>{{ filme.sinopse}}</td>
+            <td>{% if filme.disponivel %} Sim {% else %} Não {% endif %}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
 
-    </div>
+</div>
 
 </body>
 
