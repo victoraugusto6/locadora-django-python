@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
+# Importação para deploy no Heroku
 import django_on_heroku
 
 from pathlib import Path
@@ -116,5 +117,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# Activate Django-Heroku.
+# Ativando Django-Heroku.
 django_on_heroku.settings(locals())
